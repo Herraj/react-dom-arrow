@@ -36,6 +36,12 @@ class Arrow extends Component {
         window.addEventListener("scroll", e => {
             this._init()
         }, true)
+        window.addEventListener("drop", e => {
+            this._init()
+        }, true)
+        window.addEventListener("dragstart", e => {
+            this._init()
+        }, true)
     }
 
     _init() {
