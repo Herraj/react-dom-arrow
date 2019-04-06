@@ -42,6 +42,42 @@ class Arrow extends Component {
         window.addEventListener("dragstart", e => {
             this._init()
         }, true)
+        window.addEventListener("dragend", e => {
+            this._init()
+        }, true)
+        window.addEventListener("dragenter", e => {
+            this._init()
+        }, true)
+        window.addEventListener("dragleave", e => {
+            this._init()
+        }, true)
+        window.addEventListener("dragover", e => {
+            this._init()
+        }, true)
+        window.addEventListener("drag", e => {
+            this._init()
+        }, true)
+        document.addEventListener("drop", e => {
+            this._init()
+        }, true)
+        document.addEventListener("dragstart", e => {
+            this._init()
+        }, true)
+        document.addEventListener("dragend", e => {
+            this._init()
+        }, true)
+        document.addEventListener("dragenter", e => {
+            this._init()
+        }, true)
+        document.addEventListener("dragleave", e => {
+            this._init()
+        }, true)
+        document.addEventListener("dragover", e => {
+            this._init()
+        }, true)
+        document.addEventListener("drag", e => {
+            this._init()
+        }, true)
     }
 
     _init() {
